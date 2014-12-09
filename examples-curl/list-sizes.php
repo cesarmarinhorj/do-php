@@ -6,10 +6,10 @@ require_once(__DIR__ . '/../config.php');
 # https://github.com/erikaheidi/do-php
 ########################################################
 
-// Simple CURL example: list all your droplets
-// https://developers.digitalocean.com/#droplets
+// Simple CURL example: list all available droplet sizes
+// https://developers.digitalocean.com/#sizes
 
-$endpoint = "https://api.digitalocean.com/v2/droplets";
+$endpoint = "https://api.digitalocean.com/v2/sizes";
 $headers[] = "Content-type: application/json";
 $headers[] = "Authorization: Bearer $DO_API_TOKEN";
 
